@@ -1,0 +1,40 @@
+a {
+    text-decoration: none;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+}
+
+.header-right {
+    margin-top: 16px;
+    float: right;
+}
+
+.btn-white {
+    color: #0277bd;
+    border: 1px solid #0277bd;
+    background-color: white;
+    border-radius: 5px;
+    padding: 8px 16px;
+    text-transform: uppercase;
+}
+
+.btn-blue {
+    color: white;
+    border: 1px solid #0277bd; 
+    background-color: #039be5;
+    border-radius: 5px;
+    padding: 8px 16px;
+    text-transform: uppercase;
+    margin-left: 16px;
+}
+
+.btn-white:hover {
+    background-color: #eeeeee;
+}
+
+.btn-blue:hover {
+    background-color: #0277bd;
+}
