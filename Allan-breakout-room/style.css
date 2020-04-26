@@ -1,0 +1,91 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.logo {
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+}
+
+.nav-box {
+	height: 15%;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	background-color: aliceblue;
+	position: relative;
+}
+
+.nav-bar {
+	display: inline-block;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.btn {
+	border: 1px black solid;
+	text-decoration: none;
+	margin: 4px;
+	padding: 4px;
+}
+
+.image-section {
+	background-image: url('./imgs/cover.jpg');
+	height: 200px;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.wrapper {
+	margin: 0 auto;
+	width: 60%;
+	position: relative;
+}
+
+.profile-pic {
+	height: 100px;
+	width: 100px;
+	position: absolute;
+	left: 20px;
+	bottom: -45px;
+	border-bottom: 1px black solid;
+}
+
+.circular-img {
+	border-radius: 50%;
+	border: 2px white solid;
+}
+
+.profile-details {
+	position: absolute;
+	left: 25%;
+	top: 20px;
+}
+
+hr {
+	position: absolute;
+	top: 80px;
+	border: 2px black solid;
+}
+
+.profile-info {
+	position: relative;
+}
+
+section.profile-info nav.nav-bar a {
+	float: right;
+}
+
+.clearfix:after {
+	content: '.';
+	clear: both;
+	display: block;
+	height: 0;
+	line-height: 0;
+	visibility: hidden;
+}
